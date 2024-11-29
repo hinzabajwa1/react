@@ -1,13 +1,17 @@
 
 
 
-
+import Chai from "./chai"
 
 function App() {
- 
+    const  userName = "hello im var"
 
   return (
-   <h1>React with Vite | Hinza</h1>
+    <>
+    <h1>React with Vite | Hinza Fatima {userName}</h1>
+    <p>Test Para</p>
+  <Chai/>
+  </>
   )
 }
 
